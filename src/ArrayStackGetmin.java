@@ -38,11 +38,11 @@ public class ArrayStackGetmin {
         asg.push(4);
         asg.push(1);
 
-        Utils.print(asg.getMin() + "");
+        CommonUtils.print(asg.getMin() + "");
         asg.pop();
-        Utils.print(asg.getMin() + "");
+        CommonUtils.print(asg.getMin() + "");
         asg.pop();
-        Utils.print(asg.getMin() + "");
+        CommonUtils.print(asg.getMin() + "");
 
     }
 

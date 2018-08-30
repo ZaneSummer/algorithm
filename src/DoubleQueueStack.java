@@ -47,10 +47,10 @@ public class DoubleQueueStack {
         doubleQueueStack.push(5);
 
 
-        Utils.print(doubleQueueStack.peek()+"");
-        Utils.print(doubleQueueStack.pop()+"");
+        CommonUtils.print(doubleQueueStack.peek()+"");
+        CommonUtils.print(doubleQueueStack.pop()+"");
         doubleQueueStack.push(50);
 
-        Utils.print(doubleQueueStack.pop()+"");
+        CommonUtils.print(doubleQueueStack.pop()+"");
     }
 }

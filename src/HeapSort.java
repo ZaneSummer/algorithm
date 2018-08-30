@@ -12,9 +12,9 @@ public class HeapSort {
             heapInseart(arr,i);
         }
         int heapSize=arr.length;
-//        Utils.swap(arr,0,--heapSize);
+//        CommonUtils.swap(arr,0,--heapSize);
         while (heapSize>0){
-            Utils.swap(arr,0,--heapSize);
+            CommonUtils.swap(arr,0,--heapSize);
             heapify(arr,0,heapSize);
         }
 
@@ -22,7 +22,7 @@ public class HeapSort {
 
     public static void heapInseart(int[] arr, int end) {
         while (arr[end] > arr[(end - 1) / 2]) {
-            Utils.swap(arr, end, (end - 1) / 2);
+            CommonUtils.swap(arr, end, (end - 1) / 2);
             end = (end - 1) / 2;
         }
 
@@ -36,7 +36,7 @@ public class HeapSort {
             if (longest == end) {
                 break;
             }
-            Utils.swap(arr, longest, end);
+            CommonUtils.swap(arr, longest, end);
             end = longest;
             left = end * 2 + 1;
         }

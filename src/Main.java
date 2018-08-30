@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.Random;
-
 public class Main {
     static int[] array = {2, 9, 5, 5,5,11, 10,5, 3, 0};
 
@@ -19,21 +16,21 @@ public class Main {
 //        LandFlag.partition(ay, 0, ay.length - 1, 23);
 //        quickSort(ay,0,ay.length-1);
 //        HeapSort.heapSort(ay);
-//        Utils.testByModel(ay,by);
+//        CommonUtils.testByModel(ay,by);
 //        printArray(ay);
-//        Utils.print(MaxGap.maxGap(array)+"");
+//        CommonUtils.print(MaxGap.maxGap(array)+"");
         ArrayQueue as=new ArrayQueue(3);
         as.push(1);
         as.push(2);
         as.push(3);
 
-        Utils.print( as.pop()+"");
-        Utils.print( as.pop()+"");
-        Utils.print( as.pop()+"");
+        CommonUtils.print( as.pop()+"");
+        CommonUtils.print( as.pop()+"");
+        CommonUtils.print( as.pop()+"");
         as.push(4);
         as.push(5);
-        Utils.print( as.pop()+"");
-        Utils.print( as.pop()+"");
+        CommonUtils.print( as.pop()+"");
+        CommonUtils.print( as.pop()+"");
     }
 
 

@@ -1,4 +1,4 @@
-public class Utils {
+public class CommonUtils {
 
     /**
      * 对数器验证

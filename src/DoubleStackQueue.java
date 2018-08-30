@@ -1,4 +1,3 @@
-import java.util.Queue;
 import java.util.Stack;
 
 public class DoubleStackQueue {
@@ -48,9 +47,9 @@ public class DoubleStackQueue {
         doubleStackQueue.add(44);
 
 
-        Utils.print(doubleStackQueue.poll()+"");
-        Utils.print(doubleStackQueue.poll()+"");
-        Utils.print(doubleStackQueue.poll()+"");
-        Utils.print(doubleStackQueue.poll()+"");
+        CommonUtils.print(doubleStackQueue.poll()+"");
+        CommonUtils.print(doubleStackQueue.poll()+"");
+        CommonUtils.print(doubleStackQueue.poll()+"");
+        CommonUtils.print(doubleStackQueue.poll()+"");
     }
 }
